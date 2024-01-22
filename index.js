@@ -34,7 +34,7 @@ const connectDB = async () => {
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("helllooooo");
+  res.send("Welcom to url shortner");
 });
 
 app.listen(PORT, () => {
